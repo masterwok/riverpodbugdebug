@@ -1,0 +1,11 @@
+targets:
+  $default:
+    sources:
+      - lib/**
+      - $package$
+      - test/**_test.dart
+      - integration_test/**_test.dart
+    builders:
+      json_serializable:
+        options:
+          checked: true
